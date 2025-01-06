@@ -1,0 +1,16 @@
+.comment{
+    padding: 10px;
+
+    .posted-by{
+        .posted-user{
+            font-weight: bold;
+            font-size: 17px;
+        }
+        .posted-on{
+            margin-left: 20px;
+        }
+    }
+    .comment-text{
+        font-size: 22px;
+    }
+}
