@@ -13,4 +13,11 @@
     .comment-text{
         font-size: 22px;
     }
+    .votes{
+        span {
+            img{
+                cursor: pointer;
+            }
+        }
+    }
 }
