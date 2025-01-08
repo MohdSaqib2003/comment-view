@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CommentView from "./components/CommentView";
 import { dummyData as data } from "./dummyData";
-import { useTraverse } from "./components/hooks/useTraverse";
+import { useTraverse } from "./hooks/useTraverse";
 
 const App = () => {
   const [commentData, setCommentData] = useState(data);
